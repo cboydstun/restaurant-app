@@ -7392,6 +7392,62 @@ a.text-dark:hover, a.text-dark:focus {
     .section {
       padding: 0 2.5rem; } }
 
+.section__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5rem; }
+  @media screen and (max-width: 768px) {
+    .section__menu {
+      padding: 2rem; } }
+  @media screen and (max-width: 500px) {
+    .section__menu {
+      padding: 2rem 0; } }
+
+.menu-section__title {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "Yeseva One";
+  color: #D4AF37; }
+  @media screen and (max-width: 768px) {
+    .menu-section__title {
+      margin: 1rem 0; } }
+
+.menu-section__list {
+  -webkit-padding-start: 0;
+  padding: 2rem; }
+
+.menu-section-description {
+  line-height: 1.2; }
+  @media screen and (max-width: 768px) {
+    .menu-section-description {
+      line-height: 1.7; } }
+
+.menu-section__item {
+  padding: 1rem 0; }
+  .menu-section__item h3 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 0;
+    width: 70%;
+    border-bottom: 1px solid #D4AF37; }
+    @media screen and (max-width: 768px) {
+      .menu-section__item h3 {
+        margin: 0 1rem 0 0; } }
+  .menu-section__item span {
+    font-size: 1.35rem;
+    color: #D4AF37;
+    border-bottom: 1px solid #D4AF37; }
+
 .section__about {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem; }
@@ -7475,7 +7531,63 @@ a.text-dark:hover, a.text-dark:focus {
     .ingredients-section__images {
       display: none; } }
 
+.section__testimonials {
+  background: url("../images/brooke-lark-cookies.jpg");
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .section__testimonials {
+      min-height: 500px;
+      background-size: cover; } }
+  @media screen and (max-width: 500px) {
+    .section__testimonials {
+      min-height: 400px; } }
+  .section__testimonials__modal {
+    background: rgba(0, 0, 0, 0.95);
+    min-height: 100%;
+    padding: 5rem 4rem;
+    min-width: 500px;
+    max-width: 900px;
+    color: white; }
+    @media screen and (max-width: 768px) {
+      .section__testimonials__modal {
+        min-width: auto;
+        padding: 1rem 3.5rem; } }
+    @media screen and (max-width: 500px) {
+      .section__testimonials__modal {
+        padding: 0.5rem 2rem; } }
+
+.testimonials__modal__heading {
+  font-family: "Yeseva One";
+  text-align: center;
+  font-size: 2.1rem;
+  margin-bottom: 2rem; }
+
+.testimonials__modal__quote {
+  font-style: italic; }
+
+.quote-writer {
+  font-style: normal;
+  padding-top: 2.5rem;
+  margin: 0 auto;
+  text-align: center; }
+
 .row {
   margin: 0; }
+
+.site-footer {
+  background: #252525;
+  color: white;
+  text-align: center;
+  padding: 2rem 5rem; }
 
 /*# sourceMappingURL=style.min.css.map */
