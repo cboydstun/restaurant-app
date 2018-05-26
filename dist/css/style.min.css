@@ -7374,7 +7374,8 @@ a.text-dark:hover, a.text-dark:focus {
     .heading {
       font-size: 2.25rem; } }
   .heading--large {
-    font-size: 4rem; }
+    font-size: 4rem;
+    margin-bottom: 3rem; }
     @media screen and (max-width: 768px) {
       .heading--large {
         font-size: 3.25rem;
@@ -7530,6 +7531,10 @@ a.text-dark:hover, a.text-dark:focus {
   @media screen and (max-width: 768px) {
     .ingredients-section__images {
       display: none; } }
+  .ingredients-section__images img {
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%; }
 
 .section__testimonials {
   background: url("../images/brooke-lark-cookies.jpg");
